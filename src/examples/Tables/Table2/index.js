@@ -20,9 +20,9 @@ function CustomTable({ data }) {
 
   // Definizione delle colonne della tabella
   const columns = [
-    { id: "distance0", label: "Disease to Distance 0" },
-    { id: "distance1", label: "Disease to Distance 1" },
-    { id: "drugNames", label: "Drug for Selected Marker" },
+    { id: "distance0", label: "High Risk (Distance 0)" },
+    { id: "distance1", label: "Medium Risk (Distance 1)" },
+    { id: "drugNames", label: "Drugs for Selected Markers" },
   ];
 
   // Determina la lunghezza massima tra i due array

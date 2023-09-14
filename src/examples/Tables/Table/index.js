@@ -53,8 +53,8 @@ function CustomTable({ data, onButtonClick }) {
   };
 
   const columns = [
-    { id: "drugBankId", label: "ID" },
-    { id: "drugName", label: "Name" },
+    { id: "drugBankId", label: "Drug ID" },
+    { id: "drugName", label: "Drug Name" },
     { id: "custom", label: "Show Proteins" },
   ];
 

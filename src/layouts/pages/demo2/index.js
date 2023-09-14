@@ -56,10 +56,15 @@ function DataTables() {
           (item, index, self) => self.indexOf(item) === index && item !== lastMarker
         );
 
+        // Rimuovi gli elementi presenti in distance0 da distance1
+        const filteredDistance1WithoutDuplicates = filteredDistance1.filter(
+          (item) => !filteredDistance0.includes(item)
+        );
+
         // Crea un oggetto con i dati filtrati dalla prima chiamata API
         const filteredData = {
           distance0: filteredDistance0,
-          distance1: filteredDistance1,
+          distance1: filteredDistance1WithoutDuplicates,
         };
 
         // Concatena i dati dalla seconda chiamata API (responseData2) come necessario
@@ -84,7 +89,7 @@ function DataTables() {
           <Card>
             <MDBox p={3} lineHeight={1}>
               <MDTypography variant="h4" fontWeight="medium">
-                Similarities Disease and Drug Selected
+                Disease Risk and Possible Drugs
               </MDTypography>
               <MDTypography variant="h6" color="text">
                 Selected {markerArray[markerArray.length - 1]} Markers: {formattedMarkers}

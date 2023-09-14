@@ -203,7 +203,7 @@ function DataTables() {
                   </p>
                   <p>
                     <strong>Markers:</strong> {currentDisease.markers.length} known markers
-                    <Button onClick={openCurrentDiseases}>Show all</Button>
+                    <Button onClick={openCurrentDiseases}>Choose</Button>
                   </p>
                 </MDBox>
               </AccordionDetails>
