@@ -1,3 +1,15 @@
+## Docker
+
+### Generate an image
+
+Generate a docker image at the last version.
+
+`docker build -t assignment-frontend:latest .`
+
+### Run it
+
+`docker run -p 3000:80 assignment-frontend:latest`
+
 # [Material Dashboard 2 PRO React](http://demos.creative-tim.com/material-dashboard-pro-react/#/dashboards/analytics?ref=readme-mdpr) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/material-dashboard-pro-react&text=Check%20Material%20Dashboard%202%20Pro%React%20made%20by%20@CreativeTim%20#webdesign%20#dashboard%20#materialdesign%20#react%20https://www.creative-tim.com/product/material-dashboard-pro-react)
 
 ![version](https://img.shields.io/badge/version-2.1.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-material-dashboard-pro-react.svg)](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-material-dashboard-pro-react.svg)](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues?q=is%3Aissue+is%3Aclosed)
@@ -53,17 +65,22 @@ Let us know your thoughts below. And good luck with development!
 
 ## Table of Contents
 
-- [Versions](#versions)
-- [Demo](#demo)
-- [Quick Start](#quick-start)
-- [Documentation](#documentation)
-- [File Structure](#file-structure)
-- [Browser Support](#browser-support)
-- [Resources](#resources)
-- [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions)
-- [Licensing](#licensing)
-- [Useful Links](#useful-links)
+- [Material Dashboard 2 PRO React ](#material-dashboard-2-pro-react-)
+			- [Special thanks](#special-thanks)
+	- [Table of Contents](#table-of-contents)
+	- [Versions](#versions)
+	- [Demo](#demo)
+	- [Quick start](#quick-start)
+	- [Terminal Commands](#terminal-commands)
+	- [Documentation](#documentation)
+		- [What's included](#whats-included)
+	- [Browser Support](#browser-support)
+	- [Resources](#resources)
+	- [Reporting Issues](#reporting-issues)
+	- [Technical Support or Questions](#technical-support-or-questions)
+	- [Licensing](#licensing)
+	- [Useful Links](#useful-links)
+				- [Social Media](#social-media)
 
 ## Versions
 
